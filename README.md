@@ -18,6 +18,23 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+try:
+    a = int(input())
+    b = int(input())
+
+    temp = a
+    a = b
+    b = temp
+
+    print("Swapped values are:", a, b)
+
+except EOFError:
+    pass
+```
+
+## OUTPUT:
+<img width="1026" height="487" alt="image" src="https://github.com/user-attachments/assets/be825e30-9a8b-440a-864a-2ffd0e5eaeae" />
 
 
 
